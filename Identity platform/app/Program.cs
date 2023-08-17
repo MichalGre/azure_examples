@@ -8,8 +8,7 @@ internal class Program
 {
    private static void Main(string[] args)
    {
-      Console.WriteLine("Hello, World!");
-
+    
       Config config = Config.ReadFromJsonFile("appsettings.json");
 
       IConfidentialClientApplication app;
